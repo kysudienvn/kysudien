@@ -19,8 +19,8 @@ const config = {
   baseUrl: '/simpledoc/',  // Cập nhật baseUrl từ thông tin bạn đã cung cấp
 
   // Cấu hình GitHub Pages để deploy đúng
-  organizationName: 'nguyenhaiha269', // GitHub username của bạn
-  projectName: 'simpledoc', // Tên repo của bạn
+  organizationName: 'kysudienvn', // Đã thay đổi thành GitHub username mới
+  projectName: 'kysudien', // Đã thay đổi tên repo mới
   deploymentBranch: 'gh-pages', // Nhánh được dùng để deploy
 
   onBrokenLinks: 'throw',
@@ -41,7 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/nguyenhaiha269/simpledoc/edit/main/',  // Cập nhật URL GitHub
+          editUrl: 'https://github.com/kysudienvn/kysudien/edit/main/',  // Cập nhật URL GitHub mới
         },
         blog: {
           showReadingTime: true,
@@ -49,7 +49,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/nguyenhaiha269/simpledoc/edit/main/',  // Cập nhật URL GitHub
+          editUrl: 'https://github.com/kysudienvn/kysudien/edit/main/',  // Cập nhật URL GitHub mới
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -116,7 +116,7 @@ const config = {
           },
 
           // Liên kết GitHub
-          { href: 'https://github.com/nguyenhaiha269/simpledoc', label: 'GitHub', position: 'right' },  // Cập nhật GitHub URL
+          { href: 'https://github.com/kysudienvn/kysudien', label: 'GitHub', position: 'right' },  // Cập nhật GitHub URL mới
         ],
       },
 
@@ -150,7 +150,7 @@ const config = {
               { label: 'Blog', to: '/blog' },
               {
                 label: 'GitHub',
-                href: 'https://github.com/nguyenhaiha269/simpledoc',  // Cập nhật GitHub URL
+                href: 'https://github.com/kysudienvn/kysudien',  // Cập nhật GitHub URL mới
               },
             ],
           },
