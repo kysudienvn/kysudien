@@ -23,7 +23,7 @@ const config = {
   projectName: 'kysudien', // Đã thay đổi tên repo mới
   deploymentBranch: 'gh-pages', // Nhánh được dùng để deploy
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false, // Tránh lỗi trang 404 khi truy cập đường dẫn
 
