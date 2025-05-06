@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/simpledoc/markdown-page",
+  "source": "@site/src/pages/markdown-page.md",
+  "title": "Markdown page example",
+  "description": "Bạn có thể tạo ra 1 trang đơn giản với Markdown mà hoàn toàn không cần đến cú pháp React.",
+  "frontMatter": {
+    "title": "Markdown page example"
+  },
+  "unlisted": false
+}
